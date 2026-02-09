@@ -19,23 +19,28 @@ Using SQL, Excel, and Python, this project serves to showcase my knowledge of co
    Created a model to identify cost drivers and segment members by estimated risk.
 
 ## Key Findings
-- [Finding 1 with visual reference]
-- [Finding 2 with visual reference]
-- [Finding 3 with visual reference]
-
-
+- Members falling within the 61-80-year age band exhibit lower average costs ($457 PMPM) compared to younger members ($504 - $521 PMPM)
+- The top 1% of members account for nearly 11% of the total cost, averaging $5,363 PMPM
+- Race/Ethnicity did not serve as a significant cost predictor
+- Any Rx use increases estimated cost by a factor of 2.89x, while any inpatient admissions increases estimated cost by a factor of 2.43x
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/a8999e78-dae5-4c3a-9feb-2eb4c423d7bf" />
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/a799e1dd-9e9c-48e9-a21f-c947375cb0a5" />
 
 ## Technical Approach
 **Model**: Tweedie GLM (log-link, power=1.5)
-**Features**: [List your X variables]
+
 **Validation**: 70/30 train-test split, decile lift analysis
 
-## How to Reproduce
-[3-4 steps to run your code]
+**Features**:
+- any_rx_2009
+- any_inpatient_2009
+- carrier_band
+- op_band
+- ip_count_capped
+- op_band
+- age_band
+- female
+- rx_x_age
+- ip_x_81plus
 
-## Skills Demonstrated
-SQL | Python (pandas, sklearn, matplotlib) | Excel | Actuarial analysis
 
-## About
-Created as a portfolio project while preparing for entry-level actuarial roles.
-[Your LinkedIn/contact]
