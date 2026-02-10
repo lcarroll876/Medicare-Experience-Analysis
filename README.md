@@ -6,7 +6,7 @@ This analysis applies risk segmentation methods to 114,612 Medicare beneficiarie
 Using SQL, Excel, and Python, this project serves to showcase my knowledge of common tools used in the actuarial profession.
 
 ## Project Workflow
-1. **Data Preparation (SQL)**: `Final_Experience_Table.sql`
+1. **Data Preparation (SQL)**: `SQL folder`
 
    Several views were created from claims tables, which were then joined to create a single **member-level experience file**.
    <details>
@@ -60,7 +60,7 @@ Using SQL, Excel, and Python, this project serves to showcase my knowledge of co
      </code></pre>
    </details>
    
-3. **Experience Analysis (Excel)**: `Health_Insurance_Experience_Analysis.xlsx`
+3. **Experience Analysis (Excel)**: `Excel-Analysis-Screenshots folder`
 
    Identified and modeled the relationships between member demographics and various utilization metrics.
    'Demographic Analysis' sheet shown below as an example.
@@ -68,7 +68,7 @@ Using SQL, Excel, and Python, this project serves to showcase my knowledge of co
    <img height="300" alt="image" src="https://github.com/user-attachments/assets/5950aec0-a6c3-4f60-8cb9-85fcda11ed95" />
 
 
-4. **Risk Modeling (Python)**: `risk_classification.ipynb`
+4. **Risk Modeling (Python)**: `Python-Model folder`
 
    Created a model to identify cost drivers and segment members by estimated risk.
 
